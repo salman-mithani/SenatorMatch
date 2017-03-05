@@ -86,7 +86,7 @@ def maxSenators(person, senators, name):
     name.append(senators[max(inverse)[1]].name)
     party = senators[max(inverse)[1]].party
     percent = (((max(inverse)[0])/float(15.0))*float(100.0))
-    return "The United States Senator whose votes your votes most closely allign with is " + name[0] + " (" + party + ") with " + str(percent) + "% of your votes being alike."
+    return "The United States Senator whose votes your votes most closely allign with is " + name[0] + " (" + party + ") with " + str(percent)[:4] + "% of your votes being alike."
 
 def imageSearch(name):
     URL = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCIRrSrC15UaQRneV4yx_ebpYdul7eWRhY&cx=009635383684542961134%3Asltokjrpsla&num=2&imgSize=medium&searchType=image&q=" + name
