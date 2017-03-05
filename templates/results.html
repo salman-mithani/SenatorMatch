@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+
+	<!-- Animations stylesheet -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+	table, th, td {
+	    border: 1px solid black;
+	    text-align: center;
+	    height: 40px;
+
+	}
+
+	body {
+    	color: white;
+    	font-size: 16px;
+	}
+	</style>
+
+</head>
+
+<body style="background: #4ABDAC" align = center>
+	<h1>Results:</h1>
+	<table style="width:95%;" align = center>
+		<tr>
+    		<th>Bill Description</th>
+    		<th>Your Vote</th>
+    		<th>{{senator1}}</th> 
+    		<th>{{senator2}}</th>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #334: Reduce the federal test-based accountability system of No Child Left Behind.</td>
+    		<td>{{q1}}</td>
+    		<td>{{q1s1}}</td> 
+    		<td>{{q1s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #331: Authorize highway infrastructure improvements.</td>
+    		<td>{{q2}}</td>
+    		<td>{{q2s1}}</td> 
+    		<td>{{q2s2}}</td>
+  		</tr>
+
+		<tr>
+    		<td>Roll Call #329: End federal funding to Planned Parenthood</td>
+    		<td>{{q3}}</td>
+    		<td>{{q3s1}}</td> 
+    		<td>{{q3s2}}</td>
+  		</tr>  		
+
+  		<tr>
+    		<td>Roll Call #325: Remove gun control from the District of Columbia.</td>
+    		<td>{{q4}}</td>
+    		<td>{{q4s1}}</td> 
+    		<td>{{q4s2}}</td>
+  		</tr>  
+
+  		<tr>
+    		<td>Roll Call #291: Encourage private entities to share information with the federal government about possible cyber security threats.</td>
+    		<td>{{q5}}</td>
+    		<td>{{q5s1}}</td> 
+    		<td>{{q5s2}}</td>
+  		</tr>  		
+
+  		<tr>
+    		<td>Roll Call #239: Reinstate grants to improve the mental health of children.</td>
+    		<td>{{q6}}</td>
+    		<td>{{q6s1}}</td> 
+    		<td>{{q6s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #238: Establish a climate change education program.</td>
+    		<td>{{q7}}</td>
+    		<td>{{q7s1}}</td> 
+    		<td>{{q7s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #233: Requires a State’s Education Report Card to include information on the graduation rates of homeless children and children in foster care.</td>
+    		<td>{{q8}}</td>
+    		<td>{{q8s1}}</td> 
+    		<td>{{q8s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #189: Requires Congress’s approval before additional countries may join the Trans Pacific Partnership.</td>
+    		<td>{{q9}}</td>
+    		<td>{{q9s1}}</td> 
+    		<td>{{q9s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #132: Prohibit increasing the public debt.</td>
+    		<td>{{q10}}</td>
+    		<td>{{q10s1}}</td> 
+    		<td>{{q10s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #131: Establish a deficit-neutral fund for Social Security.</td>
+    		<td>{{q11}}</td>
+    		<td>{{q11s1}}</td> 
+    		<td>{{q11s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #111: Provide additional resources offsetting proposed cuts to Medicare.</td>
+    		<td>{{q12}}</td>
+    		<td>{{q12s1}}</td> 
+    		<td>{{q12s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #78: Create middle class jobs by investing in the nation’s infrastructure, paid for by raising revenue through closing loopholes in the corporate and international tax system.</td>
+    		<td>{{q13}}</td>
+    		<td>{{q13s1}}</td> 
+    		<td>{{q13s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #44: Establish a renewable electricity standard.</td>
+    		<td>{{q14}}</td>
+    		<td>{{q14s1}}</td> 
+    		<td>{{q14s2}}</td>
+  		</tr>
+
+  		<tr>
+    		<td>Roll Call #31: Provide communities that rely on drinking water from a source that may be affected by a tar sands spill from the Keystone XL pipeline an analysis of the potential risks to public health and the environment from a leak.</td>
+    		<td>{{q15}}</td>
+    		<td>{{q15s1}}</td> 
+    		<td>{{q15s2}}</td>
+  		</tr>
+
+  	</table>
+
+  	<br>
+  	<p style="font-size: 30px;">{{output}}</p>
+
+    <img src="{{filename}}">
+
+  	<br>
+  	<br>
+
+</body>
+
+</html>

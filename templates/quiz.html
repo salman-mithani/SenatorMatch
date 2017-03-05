@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title></title>
+
+	<!-- Animations stylesheet -->
+	<link rel="stylesheet" href="static/animate.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>body {
+    	color: white;
+    	font-size: 20px;
+	}</style>
+
+</head>
+
+<body style="background: #4ABDAC" align = center>
+	<h1>Your State is {{state}}</h1>
+	<p>Please answer how you would vote on the bills shown below.</p>
+	<form action = '/results' method = 'post'>
+		<!-- <p>Roll Call Vote #334</p> -->
+		<p>Reduce the federal test-based accountability system of No Child Left Behind.</p>
+		<input type = 'radio' name = 'q1' value = 'Yes'>Yea</input>
+		<input type='radio' name='q1' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #331</p> -->
+		<p>Authorize highway infrastructure improvements.</p>
+		<input type = 'radio' name = 'q2' value = 'Yes'>Yea</input>
+		<input type='radio' name='q2' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #329</p> -->
+		<p>End federal funding to Planned Parenthood.</p>
+		<input type = 'radio' name = 'q3' value = 'Yes'>Yea</input>
+		<input type='radio' name='q3' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #325</p> -->
+		<p>Remove gun control from the District of Columbia.</p>
+		<input type = 'radio' name = 'q4' value = 'Yes'>Yea</input>
+		<input type='radio' name='q4' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #291</p> -->
+		<p>Encourage private entities to share information with the federal government about possible cyber security threats.</p>
+		<input type = 'radio' name = 'q5' value = 'Yes'>Yea</input>
+		<input type='radio' name='q5' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #239</p> -->
+		<p>Reinstate grants to improve the mental health of children.</p>
+		<input type = 'radio' name = 'q6' value = 'Yes'>Yea</input>
+		<input type='radio' name='q6' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #238</p> -->
+		<p>Establish a climate change education program.</p>
+		<input type = 'radio' name = 'q7' value = 'Yes'>Yea</input>
+		<input type='radio' name='q7' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #233</p> -->
+		<p>Requires a State’s Education Report Card to include information on the graduation rates of homeless children and children in foster care.</p>
+		<input type = 'radio' name = 'q8' value = 'Yes'>Yea</input>
+		<input type='radio' name='q8' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #189</p> -->
+		<p>Requires Congress’s approval before additional countries may join the Trans Pacific Partnership.</p>
+		<input type = 'radio' name = 'q9' value = 'Yes'>Yea</input>
+		<input type='radio' name='q9' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #132</p> -->
+		<p>Prohibit increasing the public debt.</p>
+		<input type = 'radio' name = 'q10' value = 'Yes'>Yea</input>
+		<input type='radio' name='q10' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #131</p> -->
+		<p>Establish a deficit-neutral fund for Social Security.</p>
+		<input type = 'radio' name = 'q11' value = 'Yes'>Yea</input>
+		<input type='radio' name='q11' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #111</p> -->
+		<p>Provide additional resources offsetting proposed cuts to Medicare.</p>
+		<input type = 'radio' name = 'q12' value = 'Yes'>Yea</input>
+		<input type='radio' name='q12' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #78</p> -->
+		<p>Create middle class jobs by investing in the nation’s infrastructure, paid for by raising revenue through closing loopholes in the corporate and international tax system.</p>
+		<input type = 'radio' name = 'q13' value = 'Yes'>Yea</input>
+		<input type='radio' name='q13' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #44</p> -->
+		<p>Establish a renewable electricity standard.</p>
+		<input type = 'radio' name = 'q14' value = 'Yes'>Yea</input>
+		<input type='radio' name='q14' value = 'No'>Nay</input>
+		<br>
+		<br>
+
+		<!-- <p>Roll Call Vote #31</p> -->
+		<p>Provide communities that rely on drinking water from a source that may be affected by a tar sands spill from the Keystone XL pipeline an analysis of the potential risks to public health and the environment from a leak.</p>
+		<input type = 'radio' name = 'q15' value = 'Yes'>Yea</input>
+		<input type='radio' name='q15' value = 'No'>Nay</input>
+		<br>
+
+		<br>
+		<input type = 'submit' value = 'Submit' style="color: black; background-color: #F7B733;">
+		<br>
+		<br>
+	</form>
+
+
+</body>
+
+</html>
