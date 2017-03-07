@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+		body {
+    	color: white;
+    	font-size: 16px;
+	}
+	</style>
+
+</head>
+
+<body style="background: #4ABDAC" align = center>
+	<h1>Loading results, please wait</h1>
+	<br>
+	<img src="../static/pageloader.gif" width="200" height="200">
+	<form id = dummy action = '/results' method='post'></form>
+	<script>document.getElementById('dummy').submit();</script>
+</body>
+
+</html>
